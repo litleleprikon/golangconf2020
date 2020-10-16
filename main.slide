@@ -1,0 +1,208 @@
+# Go Generate Code Together
+
+Emil Sharifullin
+// TODO change the date
+12:00 16 Oct 2020
+iam@litleleprikon.me
+Tags: go, codegeneration, golangconf
+
+## Codegeneration
+
+.background img/background.png
+
+A type of computer programming in which some mechanism generates a program.
+
+## Codegeneration in Different Languages
+
+.background img/background.png
+
+## New Project Generators
+
+.background img/background.png
+
+- Yeoman
+- CookieCutter
+- Vue CLI
+
+## Tests Generators
+
+.background img/background.png
+
+- IDE
+- CLI of testing library
+
+## Refactoring Tools
+
+.background img/background.png
+
+- IDE
+- Linters with --write option
+
+## Specification Driven Codegeneration
+
+.background img/background.png
+
+- Swagger
+- gRPC
+
+## Performance Optimizations
+
+.background img/background.png
+
+- Protocol Buffers
+
+## Codegeneration in Go
+
+.background img/background.png
+
+## New Project Generators
+
+.background img/background.png
+
+- Yeoman
+- CookieCutter
+- Boilr
+
+## Tests Generators
+
+.background img/background.png
+
+- gotests
+- gomock
+
+.code src/ex00/main.go /^func Sum/,/^}/
+
+.play src/ex00/run.sh
+
+## Refactoring Tools
+
+- gofmt
+- gorename
+
+.background img/background.png
+
+.code src/ex01/main.go
+
+.play src/ex01/run.sh
+
+## Specification Driven Codegeneration
+
+.background img/background.png
+
+- Swagger
+- gRPC
+
+## Performance Optimizations
+
+- Serialization
+- Parsing
+
+.background img/background.png
+
+.code src/ex02/datatypes_test.go /^func BenchmarkSample/,/^}/
+
+.play src/ex02/run.sh
+
+## Missing Language Features
+
+- Generics
+
+.background img/background.png
+
+.code src/ex04/datatypes.go
+
+.play src/ex04/run.sh
+
+## Prerequisites
+
+.background img/background.png
+
+## UNIX philosophy
+
+.background img/background.png
+
+- A Bunch of utilities in standard bundle
+- Each does small task
+
+## AST Parser in Go
+
+.background img/background.png
+
+- Go code parsing as a standard library
+
+## High performance demand
+
+.background img/background.png
+
+- Go is a language for high-performance network applications
+- Reflection in Go is slow
+
+## Strong typing
+
+- Missing generics
+- Strong typing is very helpful
+
+## Demo
+
+.background img/background.png
+
+## Parser
+
+.background img/background.png
+
+.code src/demo/cmd/doc/main.go /IMPORTS START/,/IMPORTS END/
+.code src/demo/cmd/doc/main.go /PREPARE START/,/PREPARE END/
+
+## Traverse
+
+.background img/background.png
+
+.code src/demo/cmd/doc/main.go /SEARCH START/,/SEARCH END/
+
+## AST Modifications
+
+.background img/background.png
+
+.code src/demo/cmd/doc/main.go /AST EDIT START/,/AST EDIT END/
+.code src/demo/cmd/doc/main.go /PRINTER START/,/PRINTER END/
+
+## Run
+
+.background img/background.png
+
+.code src/demo/example/main.go
+.play src/demo/cmd/doc/main.go /^func main/,/^}/
+
+## Using Templates
+
+.background img/background.png
+
+.code src/demo/cmd/interface/main.go /PRINTER START/,/PRINTER END/
+.code src/demo/cmd/interface/main.go /TMPL START/,/TMPL END/
+
+## Run
+
+.background img/background.png
+
+.code src/demo/cmd/interface/main.go /PRINT START/,/PRINT END/
+.play src/demo/cmd/interface/main.go /^func main/,/^}/
+
+
+## Tip
+
+.background img/background.png
+
+Use Go Generate
+
+.code src/ex03/log.go HL0001
+.play src/ex03/run.sh
+
+## Future
+
+.background img/background.png
+
+## Example
+
+.background img/background.png
+
+.image img/qrcode.svg 500 _

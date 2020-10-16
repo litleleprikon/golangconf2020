@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+go generate -v github.com/litleleprikon/golangconf2020/src/ex03/...
